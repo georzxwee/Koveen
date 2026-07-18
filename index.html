@@ -1,84 +1,1164 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Koveen - Moda Sostenible</title>
+    <title>Koveen — Moda y Accesorios Sostenibles</title>
+    <meta name="description" content="Koveen: ropa y accesorios sostenibles para Latinoamérica.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-    <!-- Encabezado de mi página -->
-    <header>
-        <h1>Koveen</h1>
+    <header class="site-header">
+        <a href="#inicio" class="logo-link"><img src="imagenes/logo.png" alt="Koveen" class="logo"></a>
         <nav>
             <ul>
                 <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#productos">Productos</a></li>
+                <li><a href="#ropa">Ropa</a></li>
+                <li><a href="#accesorios">Accesorios</a></li>
+                <li><a href="#calzado">Calzado</a></li>
             </ul>
         </nav>
     </header>
 
-    <!-- Contenido principal de Koveen -->
-    <main>
+    <section class="hero" id="inicio">
+        <h1>Moda consciente,<br>hecha para durar</h1>
+        <p>Ropa y accesorios sostenibles diseñados para Latinoamérica. Materiales responsables, líneas atemporales, cero
+            excusas con el planeta.</p>
+    </section>
 
-        <!-- Sección de inicio -->
-        <section id="inicio">
-            <h2>Moda que respeta el planeta</h2>
-            <p>Ropa y accesorios sostenibles, hechos con materiales responsables para un estilo consciente y duradero.</p>
+    <main>
+        <section class="catalog" id="ropa">
+            <h2>Ropa</h2>
+            <div class="grid">
+                <article class="card">
+                    <span class="num">N.º 001</span>
+                    <img src="https://picsum.photos/seed/koveen1/480/600?grayscale" alt="Camiseta Básica" loading="lazy"
+                        width="480" height="600">
+                    <div class="info">
+                        <span class="tag">Algodón Orgánico</span>
+                        <h3>Camiseta Básica</h3>
+                        <span class="price">$125.000</span>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <span class="num">N.º 002</span>
+                    <img src="https://picsum.photos/seed/koveen2/480/600?grayscale" alt="Camiseta Clásica"
+                        loading="lazy" width="480" height="600">
+                    <div class="info">
+                        <span class="tag">Lino Orgánico</span>
+                        <h3>Camiseta Clásica</h3>
+                        <span class="price">$135.000</span>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <span class="num">N.º 003</span>
+                    <img src="https://picsum.photos/seed/koveen3/480/600?grayscale" alt="Camiseta Urbana" loading="lazy"
+                        width="480" height="600">
+                    <div class="info">
+                        <span class="tag">Cáñamo Natural</span>
+                        <h3>Camiseta Urbana</h3>
+                        <span class="price">$85.000</span>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <span class="num">N.º 004</span>
+                    <img src="https://picsum.photos/seed/koveen4/480/600?grayscale" alt="Camiseta Esencial"
+                        loading="lazy" width="480" height="600">
+                    <div class="info">
+                        <span class="tag">Lana Reciclada</span>
+                        <h3>Camiseta Esencial</h3>
+                        <span class="price">$84.900</span>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <span class="num">N.º 005</span>
+                    <img src="https://picsum.photos/seed/koveen5/480/600?grayscale" alt="Camisa Básica" loading="lazy"
+                        width="480" height="600">
+                    <div class="info">
+                        <span class="tag">Algodón Orgánico</span>
+                        <h3>Camisa Básica</h3>
+                        <span class="price">$75.000</span>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <span class="num">N.º 006</span>
+                    <img src="https://picsum.photos/seed/koveen6/480/600?grayscale" alt="Camisa Clásica" loading="lazy"
+                        width="480" height="600">
+                    <div class="info">
+                        <span class="tag">Lino Orgánico</span>
+                        <h3>Camisa Clásica</h3>
+                        <span class="price">$104.900</span>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <span class="num">N.º 007</span>
+                    <img src="https://picsum.photos/seed/koveen7/480/600?grayscale" alt="Camisa Urbana" loading="lazy"
+                        width="480" height="600">
+                    <div class="info">
+                        <span class="tag">Cáñamo Natural</span>
+                        <h3>Camisa Urbana</h3>
+                        <span class="price">$134.900</span>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <span class="num">N.º 008</span>
+                    <img src="https://picsum.photos/seed/koveen8/480/600?grayscale" alt="Camisa Esencial" loading="lazy"
+                        width="480" height="600">
+                    <div class="info">
+                        <span class="tag">Lana Reciclada</span>
+                        <h3>Camisa Esencial</h3>
+                        <span class="price">$104.900</span>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <span class="num">N.º 009</span>
+                    <img src="https://picsum.photos/seed/koveen9/480/600?grayscale" alt="Chaqueta Básica" loading="lazy"
+                        width="480" height="600">
+                    <div class="info">
+                        <span class="tag">Algodón Orgánico</span>
+                        <h3>Chaqueta Básica</h3>
+                        <span class="price">$134.900</span>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <span class="num">N.º 010</span>
+                    <img src="https://picsum.photos/seed/koveen10/480/600?grayscale" alt="Chaqueta Clásica"
+                        loading="lazy" width="480" height="600">
+                    <div class="info">
+                        <span class="tag">Lino Orgánico</span>
+                        <h3>Chaqueta Clásica</h3>
+                        <span class="price">$164.900</span>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <span class="num">N.º 011</span>
+                    <img src="https://picsum.photos/seed/koveen11/480/600?grayscale" alt="Chaqueta Urbana"
+                        loading="lazy" width="480" height="600">
+                    <div class="info">
+                        <span class="tag">Cáñamo Natural</span>
+                        <h3>Chaqueta Urbana</h3>
+                        <span class="price">$105.000</span>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <span class="num">N.º 012</span>
+                    <img src="https://picsum.photos/seed/koveen12/480/600?grayscale" alt="Chaqueta Esencial"
+                        loading="lazy" width="480" height="600">
+                    <div class="info">
+                        <span class="tag">Lana Reciclada</span>
+                        <h3>Chaqueta Esencial</h3>
+                        <span class="price">$165.000</span>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <span class="num">N.º 013</span>
+                    <img src="https://picsum.photos/seed/koveen13/480/600?grayscale" alt="Pantalón Básico"
+                        loading="lazy" width="480" height="600">
+                    <div class="info">
+                        <span class="tag">Algodón Orgánico</span>
+                        <h3>Pantalón Básico</h3>
+                        <span class="price">$164.900</span>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <span class="num">N.º 014</span>
+                    <img src="https://picsum.photos/seed/koveen14/480/600?grayscale" alt="Pantalón Clásico"
+                        loading="lazy" width="480" height="600">
+                    <div class="info">
+                        <span class="tag">Lino Orgánico</span>
+                        <h3>Pantalón Clásico</h3>
+                        <span class="price">$75.000</span>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <span class="num">N.º 015</span>
+                    <img src="https://picsum.photos/seed/koveen15/480/600?grayscale" alt="Pantalón Urbano"
+                        loading="lazy" width="480" height="600">
+                    <div class="info">
+                        <span class="tag">Cáñamo Natural</span>
+                        <h3>Pantalón Urbano</h3>
+                        <span class="price">$74.900</span>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <span class="num">N.º 016</span>
+                    <img src="https://picsum.photos/seed/koveen16/480/600?grayscale" alt="Pantalón Esencial"
+                        loading="lazy" width="480" height="600">
+                    <div class="info">
+                        <span class="tag">Lana Reciclada</span>
+                        <h3>Pantalón Esencial</h3>
+                        <span class="price">$94.900</span>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <span class="num">N.º 017</span>
+                    <img src="https://picsum.photos/seed/koveen17/480/600?grayscale" alt="Vestido Básico" loading="lazy"
+                        width="480" height="600">
+                    <div class="info">
+                        <span class="tag">Algodón Orgánico</span>
+                        <h3>Vestido Básico</h3>
+                        <span class="price">$94.900</span>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <span class="num">N.º 018</span>
+                    <img src="https://picsum.photos/seed/koveen18/480/600?grayscale" alt="Vestido Clásico"
+                        loading="lazy" width="480" height="600">
+                    <div class="info">
+                        <span class="tag">Lino Orgánico</span>
+                        <h3>Vestido Clásico</h3>
+                        <span class="price">$164.900</span>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <span class="num">N.º 019</span>
+                    <img src="https://picsum.photos/seed/koveen19/480/600?grayscale" alt="Vestido Urbano" loading="lazy"
+                        width="480" height="600">
+                    <div class="info">
+                        <span class="tag">Cáñamo Natural</span>
+                        <h3>Vestido Urbano</h3>
+                        <span class="price">$205.000</span>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <span class="num">N.º 020</span>
+                    <img src="https://picsum.photos/seed/koveen20/480/600?grayscale" alt="Vestido Esencial"
+                        loading="lazy" width="480" height="600">
+                    <div class="info">
+                        <span class="tag">Lana Reciclada</span>
+                        <h3>Vestido Esencial</h3>
+                        <span class="price">$84.900</span>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <span class="num">N.º 021</span>
+                    <img src="https://picsum.photos/seed/koveen21/480/600?grayscale" alt="Falda Básica" loading="lazy"
+                        width="480" height="600">
+                    <div class="info">
+                        <span class="tag">Algodón Orgánico</span>
+                        <h3>Falda Básica</h3>
+                        <span class="price">$174.900</span>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <span class="num">N.º 022</span>
+                    <img src="https://picsum.photos/seed/koveen22/480/600?grayscale" alt="Falda Clásica" loading="lazy"
+                        width="480" height="600">
+                    <div class="info">
+                        <span class="tag">Lino Orgánico</span>
+                        <h3>Falda Clásica</h3>
+                        <span class="price">$84.900</span>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <span class="num">N.º 023</span>
+                    <img src="https://picsum.photos/seed/koveen23/480/600?grayscale" alt="Falda Urbana" loading="lazy"
+                        width="480" height="600">
+                    <div class="info">
+                        <span class="tag">Cáñamo Natural</span>
+                        <h3>Falda Urbana</h3>
+                        <span class="price">$84.900</span>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <span class="num">N.º 024</span>
+                    <img src="https://picsum.photos/seed/koveen24/480/600?grayscale" alt="Falda Esencial" loading="lazy"
+                        width="480" height="600">
+                    <div class="info">
+                        <span class="tag">Lana Reciclada</span>
+                        <h3>Falda Esencial</h3>
+                        <span class="price">$164.900</span>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <span class="num">N.º 025</span>
+                    <img src="https://picsum.photos/seed/koveen25/480/600?grayscale" alt="Short Básico" loading="lazy"
+                        width="480" height="600">
+                    <div class="info">
+                        <span class="tag">Algodón Orgánico</span>
+                        <h3>Short Básico</h3>
+                        <span class="price">$174.900</span>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <span class="num">N.º 026</span>
+                    <img src="https://picsum.photos/seed/koveen26/480/600?grayscale" alt="Short Clásico" loading="lazy"
+                        width="480" height="600">
+                    <div class="info">
+                        <span class="tag">Lino Orgánico</span>
+                        <h3>Short Clásico</h3>
+                        <span class="price">$194.900</span>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <span class="num">N.º 027</span>
+                    <img src="https://picsum.photos/seed/koveen27/480/600?grayscale" alt="Short Urbano" loading="lazy"
+                        width="480" height="600">
+                    <div class="info">
+                        <span class="tag">Cáñamo Natural</span>
+                        <h3>Short Urbano</h3>
+                        <span class="price">$165.000</span>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <span class="num">N.º 028</span>
+                    <img src="https://picsum.photos/seed/koveen28/480/600?grayscale" alt="Short Esencial" loading="lazy"
+                        width="480" height="600">
+                    <div class="info">
+                        <span class="tag">Lana Reciclada</span>
+                        <h3>Short Esencial</h3>
+                        <span class="price">$124.900</span>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <span class="num">N.º 029</span>
+                    <img src="https://picsum.photos/seed/koveen29/480/600?grayscale" alt="Suéter Básico" loading="lazy"
+                        width="480" height="600">
+                    <div class="info">
+                        <span class="tag">Algodón Orgánico</span>
+                        <h3>Suéter Básico</h3>
+                        <span class="price">$194.900</span>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <span class="num">N.º 030</span>
+                    <img src="https://picsum.photos/seed/koveen30/480/600?grayscale" alt="Suéter Clásico" loading="lazy"
+                        width="480" height="600">
+                    <div class="info">
+                        <span class="tag">Lino Orgánico</span>
+                        <h3>Suéter Clásico</h3>
+                        <span class="price">$194.900</span>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <span class="num">N.º 031</span>
+                    <img src="https://picsum.photos/seed/koveen31/480/600?grayscale" alt="Suéter Urbano" loading="lazy"
+                        width="480" height="600">
+                    <div class="info">
+                        <span class="tag">Cáñamo Natural</span>
+                        <h3>Suéter Urbano</h3>
+                        <span class="price">$164.900</span>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <span class="num">N.º 032</span>
+                    <img src="https://picsum.photos/seed/koveen32/480/600?grayscale" alt="Suéter Esencial"
+                        loading="lazy" width="480" height="600">
+                    <div class="info">
+                        <span class="tag">Lana Reciclada</span>
+                        <h3>Suéter Esencial</h3>
+                        <span class="price">$145.000</span>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <span class="num">N.º 033</span>
+                    <img src="https://picsum.photos/seed/koveen33/480/600?grayscale" alt="Sudadera Básica"
+                        loading="lazy" width="480" height="600">
+                    <div class="info">
+                        <span class="tag">Algodón Orgánico</span>
+                        <h3>Sudadera Básica</h3>
+                        <span class="price">$184.900</span>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <span class="num">N.º 034</span>
+                    <img src="https://picsum.photos/seed/koveen34/480/600?grayscale" alt="Sudadera Clásica"
+                        loading="lazy" width="480" height="600">
+                    <div class="info">
+                        <span class="tag">Lino Orgánico</span>
+                        <h3>Sudadera Clásica</h3>
+                        <span class="price">$165.000</span>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <span class="num">N.º 035</span>
+                    <img src="https://picsum.photos/seed/koveen35/480/600?grayscale" alt="Sudadera Urbana"
+                        loading="lazy" width="480" height="600">
+                    <div class="info">
+                        <span class="tag">Cáñamo Natural</span>
+                        <h3>Sudadera Urbana</h3>
+                        <span class="price">$84.900</span>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <span class="num">N.º 036</span>
+                    <img src="https://picsum.photos/seed/koveen36/480/600?grayscale" alt="Sudadera Esencial"
+                        loading="lazy" width="480" height="600">
+                    <div class="info">
+                        <span class="tag">Lana Reciclada</span>
+                        <h3>Sudadera Esencial</h3>
+                        <span class="price">$95.000</span>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <span class="num">N.º 037</span>
+                    <img src="https://picsum.photos/seed/koveen37/480/600?grayscale" alt="Abrigo Básico" loading="lazy"
+                        width="480" height="600">
+                    <div class="info">
+                        <span class="tag">Algodón Orgánico</span>
+                        <h3>Abrigo Básico</h3>
+                        <span class="price">$95.000</span>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <span class="num">N.º 038</span>
+                    <img src="https://picsum.photos/seed/koveen38/480/600?grayscale" alt="Abrigo Clásico" loading="lazy"
+                        width="480" height="600">
+                    <div class="info">
+                        <span class="tag">Lino Orgánico</span>
+                        <h3>Abrigo Clásico</h3>
+                        <span class="price">$134.900</span>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <span class="num">N.º 039</span>
+                    <img src="https://picsum.photos/seed/koveen39/480/600?grayscale" alt="Abrigo Urbano" loading="lazy"
+                        width="480" height="600">
+                    <div class="info">
+                        <span class="tag">Cáñamo Natural</span>
+                        <h3>Abrigo Urbano</h3>
+                        <span class="price">$174.900</span>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <span class="num">N.º 040</span>
+                    <img src="https://picsum.photos/seed/koveen40/480/600?grayscale" alt="Abrigo Esencial"
+                        loading="lazy" width="480" height="600">
+                    <div class="info">
+                        <span class="tag">Lana Reciclada</span>
+                        <h3>Abrigo Esencial</h3>
+                        <span class="price">$154.900</span>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                </article>
+            </div>
         </section>
 
-        <!-- Sección de productos -->
-        <section id="productos">
-            <h2>Nuestros Productos</h2>
+        <section class="catalog" id="accesorios">
+            <h2>Accesorios</h2>
+            <div class="grid">
+                <article class="card">
+                    <span class="num">N.º 041</span>
+                    <img src="https://picsum.photos/seed/koveen41/480/600?grayscale" alt="Bolso Básico" loading="lazy"
+                        width="480" height="600">
+                    <div class="info">
+                        <span class="tag">Yute Reciclado</span>
+                        <h3>Bolso Básico</h3>
+                        <span class="price">$94.900</span>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <span class="num">N.º 042</span>
+                    <img src="https://picsum.photos/seed/koveen42/480/600?grayscale" alt="Bolso Clásico" loading="lazy"
+                        width="480" height="600">
+                    <div class="info">
+                        <span class="tag">Corcho Natural</span>
+                        <h3>Bolso Clásico</h3>
+                        <span class="price">$94.900</span>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <span class="num">N.º 043</span>
+                    <img src="https://picsum.photos/seed/koveen43/480/600?grayscale" alt="Bolso Urbano" loading="lazy"
+                        width="480" height="600">
+                    <div class="info">
+                        <span class="tag">Cáñamo Natural</span>
+                        <h3>Bolso Urbano</h3>
+                        <span class="price">$135.000</span>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <span class="num">N.º 044</span>
+                    <img src="https://picsum.photos/seed/koveen44/480/600?grayscale" alt="Bolso Premium" loading="lazy"
+                        width="480" height="600">
+                    <div class="info">
+                        <span class="tag">Algodón Orgánico</span>
+                        <h3>Bolso Premium</h3>
+                        <span class="price">$55.000</span>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <span class="num">N.º 045</span>
+                    <img src="https://picsum.photos/seed/koveen45/480/600?grayscale" alt="Bolso Signature"
+                        loading="lazy" width="480" height="600">
+                    <div class="info">
+                        <span class="tag">Bambú Natural</span>
+                        <h3>Bolso Signature</h3>
+                        <span class="price">$84.900</span>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <span class="num">N.º 046</span>
+                    <img src="https://picsum.photos/seed/koveen46/480/600?grayscale" alt="Mochila Básica" loading="lazy"
+                        width="480" height="600">
+                    <div class="info">
+                        <span class="tag">Yute Reciclado</span>
+                        <h3>Mochila Básica</h3>
+                        <span class="price">$144.900</span>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <span class="num">N.º 047</span>
+                    <img src="https://picsum.photos/seed/koveen47/480/600?grayscale" alt="Mochila Clásica"
+                        loading="lazy" width="480" height="600">
+                    <div class="info">
+                        <span class="tag">Corcho Natural</span>
+                        <h3>Mochila Clásica</h3>
+                        <span class="price">$85.000</span>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <span class="num">N.º 048</span>
+                    <img src="https://picsum.photos/seed/koveen48/480/600?grayscale" alt="Mochila Urbana" loading="lazy"
+                        width="480" height="600">
+                    <div class="info">
+                        <span class="tag">Cáñamo Natural</span>
+                        <h3>Mochila Urbana</h3>
+                        <span class="price">$145.000</span>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <span class="num">N.º 049</span>
+                    <img src="https://picsum.photos/seed/koveen49/480/600?grayscale" alt="Mochila Premium"
+                        loading="lazy" width="480" height="600">
+                    <div class="info">
+                        <span class="tag">Algodón Orgánico</span>
+                        <h3>Mochila Premium</h3>
+                        <span class="price">$85.000</span>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <span class="num">N.º 050</span>
+                    <img src="https://picsum.photos/seed/koveen50/480/600?grayscale" alt="Mochila Signature"
+                        loading="lazy" width="480" height="600">
+                    <div class="info">
+                        <span class="tag">Bambú Natural</span>
+                        <h3>Mochila Signature</h3>
+                        <span class="price">$144.900</span>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <span class="num">N.º 051</span>
+                    <img src="https://picsum.photos/seed/koveen51/480/600?grayscale" alt="Billetera Básica"
+                        loading="lazy" width="480" height="600">
+                    <div class="info">
+                        <span class="tag">Yute Reciclado</span>
+                        <h3>Billetera Básica</h3>
+                        <span class="price">$114.900</span>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <span class="num">N.º 052</span>
+                    <img src="https://picsum.photos/seed/koveen52/480/600?grayscale" alt="Billetera Clásica"
+                        loading="lazy" width="480" height="600">
+                    <div class="info">
+                        <span class="tag">Corcho Natural</span>
+                        <h3>Billetera Clásica</h3>
+                        <span class="price">$134.900</span>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <span class="num">N.º 053</span>
+                    <img src="https://picsum.photos/seed/koveen53/480/600?grayscale" alt="Billetera Urbana"
+                        loading="lazy" width="480" height="600">
+                    <div class="info">
+                        <span class="tag">Cáñamo Natural</span>
+                        <h3>Billetera Urbana</h3>
+                        <span class="price">$44.900</span>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <span class="num">N.º 054</span>
+                    <img src="https://picsum.photos/seed/koveen54/480/600?grayscale" alt="Billetera Premium"
+                        loading="lazy" width="480" height="600">
+                    <div class="info">
+                        <span class="tag">Algodón Orgánico</span>
+                        <h3>Billetera Premium</h3>
+                        <span class="price">$84.900</span>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <span class="num">N.º 055</span>
+                    <img src="https://picsum.photos/seed/koveen55/480/600?grayscale" alt="Billetera Signature"
+                        loading="lazy" width="480" height="600">
+                    <div class="info">
+                        <span class="tag">Bambú Natural</span>
+                        <h3>Billetera Signature</h3>
+                        <span class="price">$74.900</span>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <span class="num">N.º 056</span>
+                    <img src="https://picsum.photos/seed/koveen56/480/600?grayscale" alt="Cinturón Básico"
+                        loading="lazy" width="480" height="600">
+                    <div class="info">
+                        <span class="tag">Yute Reciclado</span>
+                        <h3>Cinturón Básico</h3>
+                        <span class="price">$114.900</span>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <span class="num">N.º 057</span>
+                    <img src="https://picsum.photos/seed/koveen57/480/600?grayscale" alt="Cinturón Clásico"
+                        loading="lazy" width="480" height="600">
+                    <div class="info">
+                        <span class="tag">Corcho Natural</span>
+                        <h3>Cinturón Clásico</h3>
+                        <span class="price">$114.900</span>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <span class="num">N.º 058</span>
+                    <img src="https://picsum.photos/seed/koveen58/480/600?grayscale" alt="Cinturón Urbano"
+                        loading="lazy" width="480" height="600">
+                    <div class="info">
+                        <span class="tag">Cáñamo Natural</span>
+                        <h3>Cinturón Urbano</h3>
+                        <span class="price">$85.000</span>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <span class="num">N.º 059</span>
+                    <img src="https://picsum.photos/seed/koveen59/480/600?grayscale" alt="Cinturón Premium"
+                        loading="lazy" width="480" height="600">
+                    <div class="info">
+                        <span class="tag">Algodón Orgánico</span>
+                        <h3>Cinturón Premium</h3>
+                        <span class="price">$105.000</span>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <span class="num">N.º 060</span>
+                    <img src="https://picsum.photos/seed/koveen60/480/600?grayscale" alt="Cinturón Signature"
+                        loading="lazy" width="480" height="600">
+                    <div class="info">
+                        <span class="tag">Bambú Natural</span>
+                        <h3>Cinturón Signature</h3>
+                        <span class="price">$85.000</span>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <span class="num">N.º 061</span>
+                    <img src="https://picsum.photos/seed/koveen61/480/600?grayscale" alt="Bufanda Básica" loading="lazy"
+                        width="480" height="600">
+                    <div class="info">
+                        <span class="tag">Yute Reciclado</span>
+                        <h3>Bufanda Básica</h3>
+                        <span class="price">$95.000</span>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <span class="num">N.º 062</span>
+                    <img src="https://picsum.photos/seed/koveen62/480/600?grayscale" alt="Bufanda Clásica"
+                        loading="lazy" width="480" height="600">
+                    <div class="info">
+                        <span class="tag">Corcho Natural</span>
+                        <h3>Bufanda Clásica</h3>
+                        <span class="price">$105.000</span>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <span class="num">N.º 063</span>
+                    <img src="https://picsum.photos/seed/koveen63/480/600?grayscale" alt="Bufanda Urbana" loading="lazy"
+                        width="480" height="600">
+                    <div class="info">
+                        <span class="tag">Cáñamo Natural</span>
+                        <h3>Bufanda Urbana</h3>
+                        <span class="price">$64.900</span>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <span class="num">N.º 064</span>
+                    <img src="https://picsum.photos/seed/koveen64/480/600?grayscale" alt="Bufanda Premium"
+                        loading="lazy" width="480" height="600">
+                    <div class="info">
+                        <span class="tag">Algodón Orgánico</span>
+                        <h3>Bufanda Premium</h3>
+                        <span class="price">$64.900</span>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <span class="num">N.º 065</span>
+                    <img src="https://picsum.photos/seed/koveen65/480/600?grayscale" alt="Bufanda Signature"
+                        loading="lazy" width="480" height="600">
+                    <div class="info">
+                        <span class="tag">Bambú Natural</span>
+                        <h3>Bufanda Signature</h3>
+                        <span class="price">$74.900</span>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <span class="num">N.º 066</span>
+                    <img src="https://picsum.photos/seed/koveen66/480/600?grayscale" alt="Gafas de Sol Básicas"
+                        loading="lazy" width="480" height="600">
+                    <div class="info">
+                        <span class="tag">Yute Reciclado</span>
+                        <h3>Gafas de Sol Básicas</h3>
+                        <span class="price">$134.900</span>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <span class="num">N.º 067</span>
+                    <img src="https://picsum.photos/seed/koveen67/480/600?grayscale" alt="Gafas de Sol Clásicas"
+                        loading="lazy" width="480" height="600">
+                    <div class="info">
+                        <span class="tag">Corcho Natural</span>
+                        <h3>Gafas de Sol Clásicas</h3>
+                        <span class="price">$84.900</span>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <span class="num">N.º 068</span>
+                    <img src="https://picsum.photos/seed/koveen68/480/600?grayscale" alt="Gafas de Sol Urbanas"
+                        loading="lazy" width="480" height="600">
+                    <div class="info">
+                        <span class="tag">Cáñamo Natural</span>
+                        <h3>Gafas de Sol Urbanas</h3>
+                        <span class="price">$104.900</span>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <span class="num">N.º 069</span>
+                    <img src="https://picsum.photos/seed/koveen69/480/600?grayscale" alt="Gafas de Sol Premium"
+                        loading="lazy" width="480" height="600">
+                    <div class="info">
+                        <span class="tag">Algodón Orgánico</span>
+                        <h3>Gafas de Sol Premium</h3>
+                        <span class="price">$134.900</span>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <span class="num">N.º 070</span>
+                    <img src="https://picsum.photos/seed/koveen70/480/600?grayscale" alt="Gafas de Sol Signature"
+                        loading="lazy" width="480" height="600">
+                    <div class="info">
+                        <span class="tag">Bambú Natural</span>
+                        <h3>Gafas de Sol Signature</h3>
+                        <span class="price">$65.000</span>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <span class="num">N.º 071</span>
+                    <img src="https://picsum.photos/seed/koveen71/480/600?grayscale" alt="Sombrero Básico"
+                        loading="lazy" width="480" height="600">
+                    <div class="info">
+                        <span class="tag">Yute Reciclado</span>
+                        <h3>Sombrero Básico</h3>
+                        <span class="price">$125.000</span>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <span class="num">N.º 072</span>
+                    <img src="https://picsum.photos/seed/koveen72/480/600?grayscale" alt="Sombrero Clásico"
+                        loading="lazy" width="480" height="600">
+                    <div class="info">
+                        <span class="tag">Corcho Natural</span>
+                        <h3>Sombrero Clásico</h3>
+                        <span class="price">$145.000</span>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <span class="num">N.º 073</span>
+                    <img src="https://picsum.photos/seed/koveen73/480/600?grayscale" alt="Sombrero Urbano"
+                        loading="lazy" width="480" height="600">
+                    <div class="info">
+                        <span class="tag">Cáñamo Natural</span>
+                        <h3>Sombrero Urbano</h3>
+                        <span class="price">$44.900</span>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <span class="num">N.º 074</span>
+                    <img src="https://picsum.photos/seed/koveen74/480/600?grayscale" alt="Sombrero Premium"
+                        loading="lazy" width="480" height="600">
+                    <div class="info">
+                        <span class="tag">Algodón Orgánico</span>
+                        <h3>Sombrero Premium</h3>
+                        <span class="price">$145.000</span>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <span class="num">N.º 075</span>
+                    <img src="https://picsum.photos/seed/koveen75/480/600?grayscale" alt="Sombrero Signature"
+                        loading="lazy" width="480" height="600">
+                    <div class="info">
+                        <span class="tag">Bambú Natural</span>
+                        <h3>Sombrero Signature</h3>
+                        <span class="price">$104.900</span>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                </article>
+            </div>
+        </section>
 
-            <article>
-                <h3>Camiseta Básica</h3>
-                <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500&q=70&fit=crop" alt="Camiseta de algodón orgánico">
-                <p>Material: Algodón orgánico</p>
-                <p>Precio: <strong>$89.900</strong></p>
-                <a href="#">Comprar</a>
-            </article>
-
-            <article>
-                <h3>Bolso Tote Natural</h3>
-                <img src="https://images.unsplash.com/photo-1592878940526-0214b0f374f6?w=500&q=70&fit=crop" alt="Bolso tote de yute reciclado">
-                <p>Material: Yute reciclado</p>
-                <p>Precio: <strong>$65.000</strong></p>
-                <a href="#">Comprar</a>
-            </article>
-
-            <article>
-                <h3>Chaqueta Denim</h3>
-                <img src="https://images.unsplash.com/photo-1544022613-e87ca75a784a?w=500&q=70&fit=crop" alt="Chaqueta de denim reciclado">
-                <p>Material: Mezclilla recuperada</p>
-                <p>Precio: <strong>$189.900</strong></p>
-                <a href="#">Comprar</a>
-            </article>
-
-            <article>
-                <h3>Gafas de Sol</h3>
-                <img src="https://images.unsplash.com/photo-1577803645773-f96470509666?w=500&q=70&fit=crop" alt="Gafas de sol de bambú">
-                <p>Material: Bambú natural</p>
-                <p>Precio: <strong>$75.000</strong></p>
-                <a href="#">Comprar</a>
-            </article>
-
-            <article>
-                <h3>Zapatos Eco</h3>
-                <img src="https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=500&q=70&fit=crop" alt="Zapatillas eco-veganas">
-                <p>Material: 100% vegano</p>
-                <p>Precio: <strong>$220.000</strong></p>
-                <a href="#">Comprar</a>
-            </article>
-
+        <section class="catalog" id="calzado">
+            <h2>Calzado</h2>
+            <div class="grid">
+                <article class="card">
+                    <span class="num">N.º 076</span>
+                    <img src="https://picsum.photos/seed/koveen76/480/600?grayscale" alt="Zapatillas Básicas"
+                        loading="lazy" width="480" height="600">
+                    <div class="info">
+                        <span class="tag">Cuero Vegano</span>
+                        <h3>Zapatillas Básicas</h3>
+                        <span class="price">$239.900</span>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <span class="num">N.º 077</span>
+                    <img src="https://picsum.photos/seed/koveen77/480/600?grayscale" alt="Zapatillas Urbanas"
+                        loading="lazy" width="480" height="600">
+                    <div class="info">
+                        <span class="tag">Algodón Reciclado</span>
+                        <h3>Zapatillas Urbanas</h3>
+                        <span class="price">$239.900</span>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <span class="num">N.º 078</span>
+                    <img src="https://picsum.photos/seed/koveen78/480/600?grayscale" alt="Zapatillas Premium"
+                        loading="lazy" width="480" height="600">
+                    <div class="info">
+                        <span class="tag">Yute Natural</span>
+                        <h3>Zapatillas Premium</h3>
+                        <span class="price">$140.000</span>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <span class="num">N.º 079</span>
+                    <img src="https://picsum.photos/seed/koveen79/480/600?grayscale" alt="Zapatillas Clásicas"
+                        loading="lazy" width="480" height="600">
+                    <div class="info">
+                        <span class="tag">Corcho Natural</span>
+                        <h3>Zapatillas Clásicas</h3>
+                        <span class="price">$259.900</span>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <span class="num">N.º 080</span>
+                    <img src="https://picsum.photos/seed/koveen80/480/600?grayscale" alt="Zapatillas Signature"
+                        loading="lazy" width="480" height="600">
+                    <div class="info">
+                        <span class="tag">Poliéster Reciclado</span>
+                        <h3>Zapatillas Signature</h3>
+                        <span class="price">$220.000</span>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <span class="num">N.º 081</span>
+                    <img src="https://picsum.photos/seed/koveen81/480/600?grayscale" alt="Sandalias Básicas"
+                        loading="lazy" width="480" height="600">
+                    <div class="info">
+                        <span class="tag">Cuero Vegano</span>
+                        <h3>Sandalias Básicas</h3>
+                        <span class="price">$149.900</span>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <span class="num">N.º 082</span>
+                    <img src="https://picsum.photos/seed/koveen82/480/600?grayscale" alt="Sandalias Urbanas"
+                        loading="lazy" width="480" height="600">
+                    <div class="info">
+                        <span class="tag">Algodón Reciclado</span>
+                        <h3>Sandalias Urbanas</h3>
+                        <span class="price">$159.900</span>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <span class="num">N.º 083</span>
+                    <img src="https://picsum.photos/seed/koveen83/480/600?grayscale" alt="Sandalias Premium"
+                        loading="lazy" width="480" height="600">
+                    <div class="info">
+                        <span class="tag">Yute Natural</span>
+                        <h3>Sandalias Premium</h3>
+                        <span class="price">$230.000</span>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <span class="num">N.º 084</span>
+                    <img src="https://picsum.photos/seed/koveen84/480/600?grayscale" alt="Sandalias Clásicas"
+                        loading="lazy" width="480" height="600">
+                    <div class="info">
+                        <span class="tag">Corcho Natural</span>
+                        <h3>Sandalias Clásicas</h3>
+                        <span class="price">$140.000</span>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <span class="num">N.º 085</span>
+                    <img src="https://picsum.photos/seed/koveen85/480/600?grayscale" alt="Sandalias Signature"
+                        loading="lazy" width="480" height="600">
+                    <div class="info">
+                        <span class="tag">Poliéster Reciclado</span>
+                        <h3>Sandalias Signature</h3>
+                        <span class="price">$239.900</span>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <span class="num">N.º 086</span>
+                    <img src="https://picsum.photos/seed/koveen86/480/600?grayscale" alt="Botas Básicas" loading="lazy"
+                        width="480" height="600">
+                    <div class="info">
+                        <span class="tag">Cuero Vegano</span>
+                        <h3>Botas Básicas</h3>
+                        <span class="price">$200.000</span>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <span class="num">N.º 087</span>
+                    <img src="https://picsum.photos/seed/koveen87/480/600?grayscale" alt="Botas Urbanas" loading="lazy"
+                        width="480" height="600">
+                    <div class="info">
+                        <span class="tag">Algodón Reciclado</span>
+                        <h3>Botas Urbanas</h3>
+                        <span class="price">$229.900</span>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <span class="num">N.º 088</span>
+                    <img src="https://picsum.photos/seed/koveen88/480/600?grayscale" alt="Botas Premium" loading="lazy"
+                        width="480" height="600">
+                    <div class="info">
+                        <span class="tag">Yute Natural</span>
+                        <h3>Botas Premium</h3>
+                        <span class="price">$150.000</span>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <span class="num">N.º 089</span>
+                    <img src="https://picsum.photos/seed/koveen89/480/600?grayscale" alt="Botas Clásicas" loading="lazy"
+                        width="480" height="600">
+                    <div class="info">
+                        <span class="tag">Corcho Natural</span>
+                        <h3>Botas Clásicas</h3>
+                        <span class="price">$259.900</span>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <span class="num">N.º 090</span>
+                    <img src="https://picsum.photos/seed/koveen90/480/600?grayscale" alt="Botas Signature"
+                        loading="lazy" width="480" height="600">
+                    <div class="info">
+                        <span class="tag">Poliéster Reciclado</span>
+                        <h3>Botas Signature</h3>
+                        <span class="price">$209.900</span>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <span class="num">N.º 091</span>
+                    <img src="https://picsum.photos/seed/koveen91/480/600?grayscale" alt="Alpargatas Básicas"
+                        loading="lazy" width="480" height="600">
+                    <div class="info">
+                        <span class="tag">Cuero Vegano</span>
+                        <h3>Alpargatas Básicas</h3>
+                        <span class="price">$150.000</span>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <span class="num">N.º 092</span>
+                    <img src="https://picsum.photos/seed/koveen92/480/600?grayscale" alt="Alpargatas Urbanas"
+                        loading="lazy" width="480" height="600">
+                    <div class="info">
+                        <span class="tag">Algodón Reciclado</span>
+                        <h3>Alpargatas Urbanas</h3>
+                        <span class="price">$199.900</span>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <span class="num">N.º 093</span>
+                    <img src="https://picsum.photos/seed/koveen93/480/600?grayscale" alt="Alpargatas Premium"
+                        loading="lazy" width="480" height="600">
+                    <div class="info">
+                        <span class="tag">Yute Natural</span>
+                        <h3>Alpargatas Premium</h3>
+                        <span class="price">$169.900</span>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <span class="num">N.º 094</span>
+                    <img src="https://picsum.photos/seed/koveen94/480/600?grayscale" alt="Alpargatas Clásicas"
+                        loading="lazy" width="480" height="600">
+                    <div class="info">
+                        <span class="tag">Corcho Natural</span>
+                        <h3>Alpargatas Clásicas</h3>
+                        <span class="price">$180.000</span>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <span class="num">N.º 095</span>
+                    <img src="https://picsum.photos/seed/koveen95/480/600?grayscale" alt="Alpargatas Signature"
+                        loading="lazy" width="480" height="600">
+                    <div class="info">
+                        <span class="tag">Poliéster Reciclado</span>
+                        <h3>Alpargatas Signature</h3>
+                        <span class="price">$279.900</span>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <span class="num">N.º 096</span>
+                    <img src="https://picsum.photos/seed/koveen96/480/600?grayscale" alt="Mocasines Básicos"
+                        loading="lazy" width="480" height="600">
+                    <div class="info">
+                        <span class="tag">Cuero Vegano</span>
+                        <h3>Mocasines Básicos</h3>
+                        <span class="price">$120.000</span>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <span class="num">N.º 097</span>
+                    <img src="https://picsum.photos/seed/koveen97/480/600?grayscale" alt="Mocasines Urbanos"
+                        loading="lazy" width="480" height="600">
+                    <div class="info">
+                        <span class="tag">Algodón Reciclado</span>
+                        <h3>Mocasines Urbanos</h3>
+                        <span class="price">$210.000</span>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <span class="num">N.º 098</span>
+                    <img src="https://picsum.photos/seed/koveen98/480/600?grayscale" alt="Mocasines Premium"
+                        loading="lazy" width="480" height="600">
+                    <div class="info">
+                        <span class="tag">Yute Natural</span>
+                        <h3>Mocasines Premium</h3>
+                        <span class="price">$140.000</span>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <span class="num">N.º 099</span>
+                    <img src="https://picsum.photos/seed/koveen99/480/600?grayscale" alt="Mocasines Clásicos"
+                        loading="lazy" width="480" height="600">
+                    <div class="info">
+                        <span class="tag">Corcho Natural</span>
+                        <h3>Mocasines Clásicos</h3>
+                        <span class="price">$199.900</span>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <span class="num">N.º 100</span>
+                    <img src="https://picsum.photos/seed/koveen100/480/600?grayscale" alt="Mocasines Signature"
+                        loading="lazy" width="480" height="600">
+                    <div class="info">
+                        <span class="tag">Poliéster Reciclado</span>
+                        <h3>Mocasines Signature</h3>
+                        <span class="price">$169.900</span>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                </article>
+            </div>
         </section>
 
     </main>
 
-    <!-- Pie de página -->
     <footer>
-        <p>&copy; 2026 Koveen. Todos los derechos reservados.</p>
+        <img src="logo.png" alt="Koveen" class="footer-logo">
+        <p>© 2026 Koveen. Moda sostenible para Latinoamérica.</p>
     </footer>
 
 </body>
+
 </html>
